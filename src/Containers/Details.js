@@ -18,6 +18,7 @@ class Details extends Component {
         global: [],
         currentDate: null
     }
+    
     render() {
         return (
             <div>
