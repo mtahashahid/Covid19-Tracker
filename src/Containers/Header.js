@@ -8,6 +8,7 @@ class Header extends Component {
             <a href="!#" className="brand-logo center " style={{fontFamily: 'Fredoka One, cursive'}}>
               COVID-19 Tracker
             </a>
+            {/* <h>font-family: 'Quicksand', sans-serif;</h> */}
           </div>
         </nav>
       </div>
