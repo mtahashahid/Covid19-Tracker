@@ -3,9 +3,11 @@ import axios from "axios";
 import Summary from "./Summary";
 import AllCountries from "./AllCountries";
 class Details extends Component {
+
+
   async componentDidMount() {
     const res = await axios.get("https://api.covid19api.com/summary");
-    console.log(res);
+    // console.log(res);
     this.setState({
       countries: res.data.Countries,
       global: res.data.Global,
@@ -20,6 +22,7 @@ class Details extends Component {
   };
 
   render() {
+    
     return (
       <div>
         <Summary
